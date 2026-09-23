@@ -12,6 +12,7 @@ int main(){
 
     while(true){
         cin >> guess;
+        
         if(guess > answer){
             cout << "제시한 정수가 답보다 큽니다" << endl;
         }else if(guess < answer){
@@ -20,6 +21,7 @@ int main(){
             cout << "제시한 정수와 답이 같습니다" << endl;
         }
         tries++;
+
         if(guess == answer)
             break;
     }
