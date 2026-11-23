@@ -1,14 +1,15 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class Car{
     private:
         int speed;
         int gear;
-        String color;
+        string color;
     public:
         void speedUp(){
-            ashfdjasdfljk
+            speed++;
         }
         void speedDown(){
             speed--;
@@ -16,7 +17,7 @@ class Car{
             
         }
     
-}
+};
 
 class Time{
     private:
