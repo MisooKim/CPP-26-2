@@ -2,7 +2,8 @@ name: Run mud_actions_test
 
 on:
   push:
-    paths:      
+    paths:
+      - 'practice/week13/actions_test/**'
       - '.github/workflows/mud_build.yml'
   workflow_dispatch:
 
